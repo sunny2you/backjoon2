@@ -35,7 +35,7 @@ public class Main3{
         }
         static int PointofContact(double A, int r1, int r2){
 
-            if(A!=0&&A<r1+r2){ //내접 조건도 포함됨 이렇게쓰면
+            if(A!=0&&A<r1+r2){
                 return 2;
             }
             else if(A+Math.min(r1,r2)==Math.max(r1,r2)||A==r1+r2){
