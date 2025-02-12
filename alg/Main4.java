@@ -4,7 +4,8 @@ public class Main4 {
     public static void main(String[] args) throws IOException{
         //입력 속도를 높이기 위해 Scanner 대신 Bufferedreader 사용
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
+        //InputStreamReader(System.in)-> byte 데이터를 문자(char) 데이터로 변환
+        //입력을 Buffer에 저장하여 속도를 빠르게함
         //한 줄 입력을 받고 정수형으로 변환(N은 숫자의 개수)
         int N=Integer.parseInt(br.readLine());
 
